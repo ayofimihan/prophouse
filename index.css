@@ -192,9 +192,10 @@ body {
   flex-direction: column;
   border: 1px solid rgba(0, 0, 0, 0.04);
   padding: 12px 12px;
+  cursor: pointer;
 }
 .house-card:hover {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.6);
 }
 .card-image {
   border-radius: 12px;
