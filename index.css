@@ -127,6 +127,9 @@ body {
   font-weight: 600;
   font-size: 12px;
 }
+.learn-btn:hover{
+  background-color: rgba(231, 182, 239, 0.3);
+}
 .numbers {
   display: flex;
   justify-content: space-between;
@@ -176,7 +179,7 @@ body {
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
 }
 .search:focus {
-  border: 1px solid rgb(225, 223, 223);
+  border: 1px solid rgb(191, 189, 189);
 }
 .houses {
   display: grid;
@@ -204,7 +207,6 @@ body {
   width: auto;
 }
 hr {
-  /* background-color: hsla(0, 0%, 40%, 0.25); */
   width: 100%;
   border: 0;
   border-top: 1px solid hsla(0, 0%, 40%, 0.25);
