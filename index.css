@@ -84,15 +84,14 @@ body {
 .connect-btn:hover {
   opacity: 0.2;
 }
-.left-nav{
-    display: flex;
+.left-nav {
+  display: flex;
 }
-.left-nav img{
-    height: 50px;
-    width: 50px;
-    margin-top: 30px;
-    margin-right: .5rem;
-
+.left-nav img {
+  height: 50px;
+  width: 50px;
+  margin-top: 30px;
+  margin-right: 0.5rem;
 }
 
 .left-nav p {
@@ -127,7 +126,7 @@ body {
   font-weight: 600;
   font-size: 12px;
 }
-.learn-btn:hover{
+.learn-btn:hover {
   background-color: rgba(231, 182, 239, 0.3);
 }
 .numbers {
@@ -197,9 +196,12 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.04);
   padding: 12px 12px;
   cursor: pointer;
+  transition: all 0.5s ease; /* back to normal */
 }
 .house-card:hover {
   background: rgba(255, 255, 255, 0.6);
+  transform: translate3D(0, -1px, 0) scale(1.03);
+  transition: all 0.4s ease; /* zoom in */
 }
 .card-image {
   border-radius: 12px;
