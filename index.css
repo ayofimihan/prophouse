@@ -108,7 +108,7 @@ body {
 .section h1 {
   font-size: 50px;
   margin: 0px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .section h1:nth-of-type(2) {
   margin-top: 1rem;
@@ -196,12 +196,15 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.04);
   padding: 12px 12px;
   cursor: pointer;
-  transition: all 0.5s ease; /* back to normal */
+  transition: all .5s ease; 
+
+  
 }
 .house-card:hover {
   background: rgba(255, 255, 255, 0.6);
   transform: translate3D(0, -1px, 0) scale(1.03);
-  transition: all 0.4s ease; /* zoom in */
+  transition: all .4s ease; 
+
 }
 .card-image {
   border-radius: 12px;
